@@ -1,0 +1,16 @@
+{application, coffee,
+ [{description, "Coffee Machine Controller"},
+  {vsn, "1.0"},
+  {registered, []},
+  {mod, { coffee_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
